@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-05T11:14:40 IST" name="Suite" finished-at="2022-12-05T11:14:44 IST" duration-ms="3408">
+    <groups>
+    </groups>
+    <test started-at="2022-12-05T11:14:40 IST" name="Test" finished-at="2022-12-05T11:14:44 IST" duration-ms="3408">
+      <class name="test.Test2">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Test2@2ef3eef9]" started-at="2022-12-05T11:14:43 IST" name="beforeClass" finished-at="2022-12-05T11:14:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:test.Test2@2ef3eef9]" started-at="2022-12-05T11:14:43 IST" name="beforeMethod" finished-at="2022-12-05T11:14:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Test2.test2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:test.Test2@2ef3eef9]" started-at="2022-12-05T11:14:43 IST" name="test2" finished-at="2022-12-05T11:14:44 IST" duration-ms="1176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test2@2ef3eef9]" started-at="2022-12-05T11:14:44 IST" name="afterMethod" finished-at="2022-12-05T11:14:44 IST" duration-ms="41" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=Test2.test2()[pri:0, instance:test.Test2@2ef3eef9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.Test2 -->
+      <class name="test.Test1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.Test1@3c407114]" started-at="2022-12-05T11:14:40 IST" name="setUp" finished-at="2022-12-05T11:14:40 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Test1@3c407114]" started-at="2022-12-05T11:14:40 IST" name="beforeClass" finished-at="2022-12-05T11:14:40 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:test.Test1@3c407114]" started-at="2022-12-05T11:14:40 IST" name="beforeMethod" finished-at="2022-12-05T11:14:40 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Test1.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:test.Test1@3c407114]" started-at="2022-12-05T11:14:40 IST" name="test1" finished-at="2022-12-05T11:14:42 IST" duration-ms="1963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test1@3c407114]" started-at="2022-12-05T11:14:42 IST" name="afterMethod" finished-at="2022-12-05T11:14:43 IST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=Test1.test1()[pri:0, instance:test.Test1@3c407114] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
